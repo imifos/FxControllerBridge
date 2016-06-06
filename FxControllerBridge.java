@@ -129,8 +129,6 @@ public class FxControllerBridge {
      */
     private void scanForFXMLMembers(Object fxController) {
 
-        boolean titleShown=false;
-
         try {
             for (Field field : fxController.getClass().getDeclaredFields()) {
 
@@ -145,9 +143,6 @@ public class FxControllerBridge {
                 Object value = field.get(fxController);
                 if (value!=null && field.getAnnotation(FXML.class)!=null) {
 
-                    if (!titleShown && FxControllerBridge.debug)
-
-                    titleShown=true;
                     if (FxControllerBridge.debug)
                         System.out.println("FxControllerBridge: Load ["+field.getName()+"] being "+value);
 
