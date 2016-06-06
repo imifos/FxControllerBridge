@@ -101,7 +101,7 @@ PS. The class is really tiny, have a look :)
 
 TLDR; It's free, but you use it at your own risk!
 
-The author accepts no liability for damage caused by this tool. If you do not accept these condition then you are prohibited from using this tool. In all other respects the Apache License version 2 applies:
+The author accepts no liability for damage caused by this tool. If you do not accept these condition then you are prohibited from using this tool. In all other respects the Apache License version 2 applies.
 
-This program is free software; you can redistribute it and/or modify  it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+This program is free software; you can redistribute it and/or modify  it under the terms of the Apache License version 2 as published by the Apache Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 
