@@ -20,6 +20,7 @@ public class MainController {
     @FXML private TreeView<MyTreeNode> sourceTree;
     @FXML private Button sourceDownloadButton;
 
+    // The scope of the injections is the 'interlacing' with the instance
     private final FxControllerBridge fxControllerBridge=new FxControllerBridge();
 
     /**
